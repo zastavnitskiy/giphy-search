@@ -49,7 +49,10 @@ export class QuerySubscription {
     this.status = Status.fetching;
     this.notifySubscriber();
 
-    this.fetching = fetch(url)
+    this.fetching = Promise.resolve()
+      .then(() => {
+        return fetch(url);
+      })
       .then(response => response.json())
       .then((parsedReponse: ApiResponse) => {
         this.data = this.data.concat(parsedReponse.data);
