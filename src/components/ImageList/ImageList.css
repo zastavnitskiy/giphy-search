@@ -1,0 +1,18 @@
+.image-list-item {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 5px;
+  background-color: #eee;
+}
+.image-list-item > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+}
+
+.image-list {
+  padding: 0;
+  margin: 0;
+}

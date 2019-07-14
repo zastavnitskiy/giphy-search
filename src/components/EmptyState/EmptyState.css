@@ -1,0 +1,16 @@
+.emptystate {
+  text-align: center;
+}
+
+.emptystate-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.emptystate-button {
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 24px;
+  background: none;
+}
