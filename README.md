@@ -25,6 +25,7 @@ The data flow in the app happens in the following way:
 2. Query is reflected in browser query string.
 3. Query is passed to the `SearchResults` component.
 4. `SearchResults` component has 3 important effects:
+
    4.1 Watch browser window and document dimensions and scroll position.
    4.2 Create a new instance of QuerySubscription for every incoming query.
    4.3 Ask API for more data if once the subscription has new data and new data is needed.
