@@ -3,6 +3,10 @@
 Simple app that uses Giphy API to
 show an infinite list of gif images matching the query.
 
+## View online
+
+https://giphy.zastavnitskiy.dev/?search=hello
+
 ## Running
 
 Install dependencies.
