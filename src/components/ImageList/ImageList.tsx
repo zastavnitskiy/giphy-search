@@ -17,7 +17,7 @@ export const ImageList: React.FC<Props> = ({ items }) => {
             >
               <img
                 alt={gif.title}
-                src={gif.images.fixed_width.webp}
+                src={gif.images.fixed_width.url}
                 width={gif.images.fixed_width.width}
                 height={gif.images.fixed_width.height}
               />
